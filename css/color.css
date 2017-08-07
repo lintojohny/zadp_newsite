@@ -1,0 +1,183 @@
+
+
+.heading h2,
+.tabs span,
+.fact-counter h3,
+#filter a,
+.ready-to-work h3,
+.thumb-carousel figcaption h3,
+.thumb-carousel figcaption a,
+.skillbar-title,
+.info h3,
+.contact-info span,
+.contact-form form button,
+.expert-details > a,
+.our-services li h4 i,
+.post h3,
+.post ul.fst li span,
+.scnd li span,
+.scnd li span b,
+.infooo h3,
+.infooo span,
+.share-links ul li span,
+.blog-user-info h3,
+.blog-hd,
+.user-comm h3,
+.error-sec h1 b,
+.error-text h2,
+.error-text p,
+.blog-section ul li a:hover,
+nav ul li a:hover,
+.error-text a,
+.share-tags h5,
+nav ul li a,
+.con-links li span,
+.hl-links:hover,
+.hd1,
+nav > ul > li.current a,
+header.two nav.pull-left ul li:last-child.current a
+
+ {
+	color: #e6827e;
+}
+
+.service_content,
+.work-flow .heading,
+.ready-to-work a,
+.price h2,
+.price:hover button,
+.comment,
+.skillbar,
+.bottom-footer,
+.tab-content2,
+.contact-form form button:hover,
+.tab.current span,
+.masonary figure::before,
+.thumb-carousel figcaption a,
+#filter a::before,
+.more-info,
+#componentWrapper .controls_toggle,
+#componentWrapper .volume_level,
+#componentWrapper .play_progress,
+.bottom-footer,
+.post-comment .contact-form button,
+.error-text a:hover,
+.nav-tabs > li.active span,
+.top::before,
+.hl-links,
+.hl-links.two
+ {
+	background-color: #e6827e;
+}
+.our-capabilities figure::before,
+.owl-thumb-item::before,
+.our-services::before,
+.our-services::after {
+	border-color: #e6827e;
+}
+
+.service_content h3,
+.work-flow .heading h2,
+.expert-details h3,
+.social-links li span:hover,
+.tab.current span,
+.thumb-carousel figcaption a
+ {
+	color: #e9f2f2;
+}
+
+.our-services,
+.ready-to-work,
+.expert-details > a
+
+ {
+	background-color: #d8e1e1;
+}
+
+
+
+.nav-tabs li.active a span {
+	color: #ffffff;
+}
+
+.facts-figures {
+	border-color: #bbb8a8;
+}
+.fact-counter span {
+	color: #bbb8a8;
+}
+
+.comment span {
+	color: #a9c2c1;
+}
+
+
+.user-info,
+.skillbar-bar,
+.contact-form form button,
+.submit,
+.submit::before
+ {
+	background-color: #a9c2c1;
+}
+.tabs2 .tab.current::before,
+.tabs2 li.tab.current img,
+.tab::after 
+ {
+	border-color: #a9c2c1;
+}
+.hl-links:hover,
+.hl-links.two:hover {
+	background-color: #e9f2f2;
+}
+
+
+.work-flow .heading::before {
+	border-right-color: #a9c2c1;
+	border-top-color: transparent;
+}
+.work-flow .heading::after {
+	border-bottom-color: #a9c2c1;
+	border-right-color: transparent;
+}
+.tab-content2::after {
+	border-bottom-color: #e6827e;
+	border-left-color: transparent;
+}
+.comment::before {
+	border-left-color: #a9c2c1;
+	border-top-color: #e6827e;
+}
+.price-links {
+	background-color: #e9f2f2;
+}
+
+.comming-soon h1 strong {
+	color: #d1cdbc;
+}
+.error-sec h1 {
+	color: #d1cdbc;
+}
+.error-text a {
+	background-color: #d1cdbc;
+}
+.our-services::before,
+.our-services::after {
+	border-right-color: transparent;
+}
+
+.user-info::before {
+	border-left-color: #a9c2c1;
+	border-top-color: #e6827e;
+}
+#componentWrapper .load_progress,
+#componentWrapper .progress_bg {
+	background-color: #d1cdbc;
+}
+
+.blog-section ul li a:hover {
+	color: #aba58b;
+}
+.post-comment .contact-form button:hover {
+	background-color: #333333;
+}

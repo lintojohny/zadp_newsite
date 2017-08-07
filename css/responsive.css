@@ -1,0 +1,468 @@
+
+@media (max-width: 1200px) {
+	.nav-tabs li a span {width: 100px; line-height: 100px; height: 100px;}
+	.nav-tabs > li:nth-child(2) {left: 60px;}
+	.nav.nav-tabs > li:nth-child(3) {left: 215px; top: 60px}
+	.nav.nav-tabs > li:nth-child(4) {left: 315px; top: 5px}
+	.nav.nav-tabs > li:nth-child(5) {left: 410px; top: 60px}
+	.nav.nav-tabs > li:nth-child(6) {left: 450px}
+	.nav.nav-tabs > li:nth-child(7) {left: 435px}
+	.nav-tabs > li:first-child::before {right: -15px; top: -68px}
+	.nav-tabs > li:nth-child(2)::before {right: -65px; top: -38px}
+	.nav-tabs > li:nth-child(3)::before {right: -94px}
+	.nav-tabs > li:nth-child(4)::before {top: 59px; right: -94px;}
+	.nav-tabs > li:nth-child(5)::before {right: -73px; top: 106px; -webkit-transform: rotate(46deg); -moz-transform: rotate(46deg); -ms-transform: rotate(46deg); -o-transform: rotate(46deg); transform: rotate(46deg);}
+	.nav-tabs > li:nth-child(6)::before {right: -50px; top: 139px; -webkit-transform: rotate(65deg); -moz-transform: rotate(65deg); -ms-transform: rotate(65deg); -o-transform: rotate(65deg); transform: rotate(65deg);}
+	.nav-tabs li a span {font-size: 44px}
+	.tab-pane {width: auto;}
+	.ready-to-work h3 {font-size: 24px;}
+	.expert-details {padding: 20px 50px}
+	.blog-details-sec .col-md-12 {padding: 0}
+	.error-text h2 {font-size: 60px;}
+	.error-text p {font-size: 24px;}
+	.error-sec h1 {font-size: 484px}
+	.contact-form form input:first-of-type {margin-right: 20px;}
+	.heading h2 {font-size: 38px;}
+	.heading.ta-left {margin-bottom: 30px}
+	.our-capabilities figure {margin-bottom: 20px}
+	.user-info h3 {font-size: 18px;}
+	.user-info {padding: 11px 30px 11px 20px;}
+	.client-say p {font-size: 15px}
+	header.two .navigations li {padding: 0 10px}
+	.service-details .heading.ta-left {margin-top: 0;}
+	.service-details .heading p {padding-right: 40px; font-size: 13px}
+	.masonary figure figcaption h3 {font-size: 18px;}
+	.masonary figure figcaption h5 {font-size: 15px;}
+	.expert-details p {margin-top: 10px; font-size: 13px;}
+	.social-links {margin-top: 20px}
+	.expert-details span {font-size: 12px}
+	.expert-details > a {margin-top: 25px;}
+	.service-details {padding: 15px 0}
+	.service-details .heading h2 {padding-bottom: 15px;}
+	.service-details {padding: 60px 0}
+	.our-services li span {font-size: 12px;}
+	.expert-details h3 {font-size: 30px;}
+	.expert-details {padding-left: 35px !important}
+	.social-links li span {font-size: 24px;}
+	.half-right {width: 49%;}
+	header.two .navigations > ul > li {padding: 30px 10px}
+	.cs-counter .row {margin-right: 0}
+	.price h2 {font-size: 32px}
+	.price span strong {font-size: 48px}
+	.submit {margin-left: 1px}
+	.top {margin-left: 1px;}
+	.comment span {font-size: 34px;}
+	.testimonials .heading {margin-bottom: 50px}
+	.partner-logos {padding-top: 50px}
+	.info h5 {font-size: 16px}
+	.infooo {padding-left: 15px}
+	.post blockquote {font-size: 14px}
+	.post .icon-quote {font-size: 38px;}
+	.our-capabilities figure::before {height: 90%}
+}
+
+@media (max-width: 991px) {
+	.nav-tabs > li::before {display: none;}
+	.nav-tabs > li {position: static;}
+	.nav-tabs > li:first-child {position: static;}
+	.nav-tabs > li:nth-child(2) {position: static;}
+	.nav-tabs li a span {width: 80px; height: 80px; line-height: 80px; font-size: 28px;}
+	.tab-content {margin-top: 60px}
+	.nav-tabs > li {margin-right: 25px;}
+	.nav-tabs > li:last-child {margin-right: 0}
+	.tabs span b::before {display: none;}
+	.heading {margin-bottom: 60px}
+	.tabs span {left: 0; top: 0; width: 80px; height: 80px; line-height: 80px;}
+	.icon-envelope {margin-right: 0}	
+	.tabs li:last-child {float: none; margin-right: 0}
+	.tabs span {font-size: 34px;}
+	.tab {margin-right: 20px}
+	.tab {margin-bottom: 10px}
+	.fact-counter {float: left;width: 50%; margin-bottom: 50px}
+	.heading h2 {font-size: 40px}
+	.ready-to-work h3 {float: left; font-size: 22px}
+	.expert-list .col-md-2 {width: 18%; margin-right: 15px; padding: 0; float: left;}
+	.expert-details {padding: 73px 75px 73px 140px}
+	.price {float: left;width: 50%; padding-right: 10px;padding-left: 10px; margin-bottom: 30px}
+	.price:hover {-webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; box-shadow: none;}
+	.comment {width: 100%;}
+	.comment::before {border-left: none}
+	.user-info {width: 30%;}
+	.comment span {font-size: 34px;}
+	.thumb-carousel figcaption {margin-left: 100px; margin-right: 100px}
+	.owl-thumbs {margin-top: 0; margin-left: 60px}
+	.thumb-carousel figcaption h3 {font-size: 18px;}
+	.thumb-carousel figcaption p {font-size: 13px;}
+	.contact-form form input:first-of-type {margin-right: 24px}
+	.contact-info li {float: left; width: 50%}
+	.our-capabilities figure {float: left;}
+	.our-capabilities figure img {max-width: 100%;}
+	.why-choose-us img {width: 100%}
+	#filter > li {margin-bottom: 20px;}
+	.owl-thumbs {margin-left: 0}
+	.con-links li {margin-right: 30px}
+	nav {display: none;}
+	.responsive-mobile-menu {display: block;}
+	.blog-user-info {padding-top: 0}
+	.tags-links {width: 50%}
+	.counter {margin:0 auto; margin-bottom: 40px}
+	.cs-data form button {right: 20px}
+	.comming-soon h1 {font-size: 84px;}
+	.cs-data p {font-size: 24px;}
+	.auto-container {float: left;width: 100%;}
+	.wdth {float: left;width: 50%;}
+	.error-text h2 {font-size: 42px}
+	.error-text p {font-size: 20px}
+	.error-sec h1 { letter-spacing: -85px; font-size: 385px;}
+	.navigations ul {display: none;}
+	.responsive-mobile-menu.twu {margin-top: -25px; float: right;}
+	.service-details {padding-left: 60px; padding-top: 30px; padding-bottom: 30px}
+	.tab-content2::after {display: none;}
+	.service-border {padding-left: 0 !important;}
+	.expert-details {padding-left: 35px !important}
+	.ready-to-work a {margin-top: -22px; position: relative; top: 20px;}
+	.masonary figure figcaption h3 {font-size: 24px;}
+	.masonary figure figcaption h5 {font-size: 18px;}
+	.our-services ul {width: 100%;}
+	.our-services ul span {font-size: 13px;}
+	.half-left {width: 100%; display: unset;}
+	.half-right {width: 100%; display: unset;}
+	.user-info::before {display: none;}
+	.expert-details p {font-size: 14px}
+	.cm-soon {height: 100%;}
+	.half-right.animated.slideInRight {animation-name: none !important; visibility: visible !important;}
+	.tab-pane.animated.fadeInUp {animation-name: none !important; visibility: visible !important;}
+	.bottom-header.one.stick {padding-bottom: 30px}
+	.work-flow .heading::before {display: none;}
+	.work-flow .heading::after {display: none;}
+	.menu-icon img {right: 20px}
+	.service-details .heading h2 {font-size: 36px}
+	.pt-logo {width: 24%; display: inline-block; margin-bottom: 40px}
+	.thumb-carousel figcaption a {padding: 10px 20px; font-size: 14px}
+	.contact-info li {margin-bottom: 40px}
+	.ft-social-links li span {font-size: 28px}
+	.ft-social-links {position: relative; top: 3px; margin-top: 0}
+	.user-infoo {width: 35%;}
+	.post .icon-quote {margin-bottom: 10px}
+	.post blockquote {line-height: 1.6;}
+	.expert-list .row {margin: 0}
+	.bottom-header.one.stick .logo {margin-top: 0}
+	.bottom-header.one.stick .menu-icon img {margin-top: 0}
+	.bottom-header.one.stick {padding: 20px 0}
+	#filter > li {padding: 0 10px;}
+	#filter > li a {font-size: 14px}
+	.our-capabilities figure::before {height: 92%}
+	header.two .logo {padding-top: 0;}
+	.menu-icon img {top: 12px; margin-top: 0}
+	header.two {padding: 15px 0}
+	header.two.stickyy .logo {padding-top: 0;}
+	.menu-icon {display: block;}
+	header .logo {margin-top: 0}
+	.bottom-header {padding: 20px 0}
+	.pd {padding: 70px 0}
+	.remove-btm-pd {padding-bottom: 0}
+	.our-services ul.first {margin-bottom: 10px;}
+	.option-set.filters-nav {margin-bottom: 20px}
+	.ready-to-work a {margin-top: -30px}
+	.expert-list {padding: 70px 0}
+	.expert-details {padding: 40px 75px 40px 140px}
+	.heading {margin-bottom: 40px}
+	.heading.ta-left {margin-bottom: 15px}
+	.copyright {position: relative; top: 8px}
+	.bottom-footer {padding: 40px 0}
+	.facts-figures {padding: 190px 35px 25px}
+	.blog-section {padding: 50px 0}
+	.error-sec {padding-top: 0}
+	.error-text {padding-top: 50px}
+	.error-text p {padding-bottom: 40px}
+	.error-sec {padding-bottom: 70px}
+
+}
+@media (max-width: 768px) {
+	.nav-tabs li a span {width: 50px; height: 50px; line-height: 50px}
+	.ready-to-work {width: 100%; text-align: center;}
+	.ready-to-work a {display: inline-block; margin-top: 25px; float: none; top: 0}
+	.ready-to-work h3 {font-size: 22px; float: left;width: 100%;}
+	.expert-list .col-md-2 {margin-right: 10px; width: 17%;}
+	.expert-details {padding: 73px 50px}
+	.tabs2 .tab.current::before {border-bottom: 15px solid #a9c2c1; border-left: 15px solid transparent; bottom: -5px; left: 45%;}
+	.price {margin-left: 17%; width: 65%;}
+	.client-say p {width: 100%; text-align: left; left: 0; float: left; padding-top: 10px; padding-bottom: 10px}
+	.thumb-carousel figcaption {padding: 20px 10px;}
+	.contact-form form input {width: 100%; margin-bottom: 20px}
+	.contact-form form textarea {margin-top: 0} 
+	.copyright {width: 100%; text-align: center;margin-bottom: 20px}
+	.ft-social-links {width: 100%; text-align: center;}
+	.ready-to-work {padding: 40px 0;} 
+	.work-flow .heading {width: 100%; padding: 45px 20px} 
+	.work-flow .heading p br {display: none;} 
+	.contact-form {margin-bottom: 40px}
+	.info h5 {font-size: 14px}
+	.heading h2 {line-height: 1.2}
+	.heading p br {display: none;}
+	.con-links {width: 100%; text-align: center; margin-bottom: 10px;}
+	.search-bar {width: 100%; text-align: center; margin-bottom: 20px;}
+	.top-bar {height: auto;}
+	.share-links {width: 100%; margin-bottom: 20px}
+	.tags-links {width: 100%;}
+	.blog-user-info p {font-size: 13px; line-height: 1.6}
+	.blog-section h2 {font-size: 24px}
+	.blog-section ul li a {font-size: 16px}
+	.blog-section ul li span {font-size: 16px}
+	.blog-section ul {margin-top: 5px}
+	.cs-data form {width: 100%;float: left; padding-left: 20px; padding-right: 20px}
+	.error-sec h1 {font-size: 300px; letter-spacing: -72px;}
+	.error-data img {margin-left: 0; margin-top: -60px}
+	.user-info {width: 40%;}
+	.service-details {padding-left: 60px;}
+	.heading h2 {font-size: 32px;}
+	.heading p {font-size: 14px;}
+	.owl-thumb-item {width: 100px; height: 100px; background: none;}
+	.owl-thumb-item img {width: 100%;}
+	.owl-thumb-item::before {display: none;}
+	.price.stt2 span {background-color: #012f5d; padding-bottom: 20px}
+	.submit {padding: 20px 0}
+	.tparrows {display: none;}
+	.helix-srvc-right {display: none;}
+	.service-details .heading h2 {font-size: 24px;}
+	.work-flow .heading {margin:0;}
+	.top::before {-webkit-transform: skewY(-13deg); -moz-transform: skewY(-13deg); -ms-transform: skewY(-13deg); -o-transform: skewY(-13deg); transform: skewY(-13deg);}
+	.submit::before {-webkit-transform: skewY(-9deg); -moz-transform: skewY(-9deg); -ms-transform: skewY(-9deg); -o-transform: skewY(-9deg); transform: skewY(-9deg);}
+	.facts-figures {padding: 60px 35px 10px 35px}
+	.nav-tabs > li {margin-right: 10px; margin-bottom: 10px}
+	.service_content {width: 100%; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;}
+	.tab-pane {border-bottom: none}
+	.user-comm {display: unset;}
+	.blog-user-comments .user-imgg {display: unset; margin-bottom: 25px; float: left;width: 100%;}
+	.blog-user-comments ul {padding-left: 0}
+	.blog-user-img {display: unset; margin-bottom: 10px;float: left;width: 100%}
+	.blog-user-info {display: unset;}
+	.service_content p {font-size: 13px;}
+	.error-text p {line-height: 1.5}
+	.search-bar form {width: 200px; margin: 0 auto;}
+	.search-bar form input {width: auto;}
+	.search-bar button {right: 25px;}
+	.our-services::before {display: none;}
+	.our-services::after {display: none;}
+	.our-services {width: 100%;}
+	.tab-content2::after {display: none;}
+	.top-footer .row {margin-right: 0}
+	.cs-data p br {display: none;}
+	.cs-data p {padding-left: 20px; padding-right: 20px}
+	.cs-data form button {right: 40px}
+	.comming-soon h1 {font-size: 56px;}
+	.our-services h3 {font-size: 20px}
+	.fact-counter h3 {padding-bottom: 15px; font-size: 42px}
+	.fact-counter h5 {font-size: 16px}
+	.work-flow .heading h2 {padding-bottom: 15px; font-size: 30px}
+	.option-set.filters-nav {margin-bottom: 20px} 
+	.pt-logo {width: 32%;}
+	.owl-thumbs {padding: 0}
+	.progress-section .heading {margin-bottom: 10px}
+	.progress-section .heading h2 {padding-bottom: 15px}
+	.contact-info span {font-size: 28px}
+	.info h3 {font-size: 20px}
+	.contact-info li {width: 100%;}
+	.infooo h3 {font-size: 18px}
+	.infooo span {font-size: 13px}
+	.userrr-img {width: 30%;}
+	.user-infoo {width: 50%;}
+	.infooo {width: 80%}
+	.userrr-img {width: 20%;}
+	.user-details .scnd {margin-top: -60px}
+	.contact-form form input:first-of-type {margin-right: 0}
+	.search-bar button {right: 13px}
+	.error-text h2 {font-size: 30px}
+	.error-text p {font-size: 16px}
+	.thumb-gallery .heading p, .price-section .heading p, .expertise .heading p  {max-width: 400px; margin: 0 auto;}
+	.service-details .heading p {max-width: 100%;}
+	.expert-details p {margin-top: 15px}
+	.bottom-header.one.stick .logo {margin-top: 0}
+	.bottom-header.one.stick .menu-icon img {margin-top: 0}
+	.bottom-header.one.stick {padding: 15px 0}
+	.search-bar {margin-bottom: 10px}
+	.con-links {margin-bottom: 5px}
+	.pd {padding: 40px 0}
+	.our-services {margin:30px 0;}
+	.heading h2.pd-btm {padding-bottom: 15px}
+	.progress-section .heading.ta-left {margin-top: 10px}
+	.expert-list {padding: 40px	0}
+	.expert-list .heading {margin-bottom: 30px}
+	.expert-details {padding: 30px 50px}
+	.contact-info li {margin-bottom: 25px}
+	.top-footer .heading.ta-left {margin-bottom: 35px}
+	.bottom-footer {padding: 25px 0}
+	.owl-thumb-item {height: 100%;}
+	.owl-thumbs {padding: 20px 0 0 0; display: none;}
+	.remove-btm-pd {padding-bottom: 0}
+	.ready-to-work {padding: 25px 0}
+	.ready-to-work a {margin-top: 15px}
+	.work-flow .heading {padding: 25px 20px}
+	.facts-figures {padding: 30px 35px 0px}
+	.fact-counter {margin-bottom: 30px}
+	.testimonials .heading {margin-bottom: 25px}
+	.partner-logos {padding-top: 30px}
+	.thumb-carousel figcaption {position: relative; margin:0; padding: 30px 10px 0px 10px;}
+	.thumb-carousel figcaption p {padding-left: 50px; padding-right: 50px; padding-bottom: 20px}
+	.thumb-carousel .owl-nav {top: 30%}
+	.work-flow .heading {padding: 25px 60px}
+	.fact-counter span {font-size: 48px}
+	.fact-counter h3 {font-size: 32px}
+	.nav.nav-tabs {position: absolute; bottom: 0; width: 100%; text-align: center;}
+	.tab-content {margin-top: 0px}
+	.services-tab {padding-bottom: 100px}
+	.nav-tabs > li {display: inline-block; float: none}
+	.services .heading {margin-bottom: 20px}
+	.tabs2 {float: left; width: 100%; text-align: center;}
+	.col-md-2.tab {display: inline-block; float: none}
+	.service_content {height: auto; padding: 35px 72px 35px;}
+	.service-border {margin-bottom: 30px; margin-top: 30px}
+	.service-details {padding-top: 25px; padding-bottom: 25px;}
+	.post-comment {padding-top: 30px}
+	.post-comment h2 {padding-bottom: 25px}
+	.error-text {padding-top: 40px}
+	.error-text h2 {padding-bottom: 15px}
+	.error-text p {padding-bottom: 20px}
+}
+
+@media (max-width: 480px) {
+	.client-say p {font-size: 13px}
+	.comment span {font-size: 36px;}
+	.price {width: 100%; margin-left: 0}
+	#filter > li {margin-bottom: 15px}
+	.fact-counter {width: 100%;}
+	.tabs span {font-size: 24px; width: 50px; height: 50px; line-height: 50px}
+	.service_content {padding: 20px}
+	.service_content span {font-size: 36px;}
+	.heading {margin-bottom: 50px}
+	.infooo h3 {font-size: 16px}
+	.infooo span {font-size: 13px;}
+	.comming-soon h1 {font-size: 42px;}
+	.post .icon-quote {font-size: 26px;}
+	.cs-logo img {width: 50%}
+	.ex-link {font-size: 18px}
+	.blck {font-size: 54px;}
+	.cs-data p br {display: none;}
+	.cs-data p {font-size: 18px;}
+	.blck {margin-top: 30px; font-size: 22px}
+	.counter {width: 120px; height: 120px;}
+	.cs-data form button span {font-size: 30px}
+	.cs-data form button {top: 20px; right: 40px;}
+	.cs-data form {padding-right: 20px;padding-left: 20px}
+	.cs-data form input {font-size: 18px;padding-left: 10px}
+	.error-sec h1 {font-size: 10em; letter-spacing: -34px; left: -27px;}
+	.error-data img {margin-top: -30px;}
+	.error-text h2 {font-size: 28px;}
+	.error-text p {font-size: 14px}
+	.info {width: 100%;}
+	.error-text p {padding-bottom: 20px}
+	.info h5 {font-size: 14px;}
+	.blog-section h2 {font-size: 20px; margin-top: 5px;}
+	.blog-section ul li a {font-size: 14px;}
+	.blog-section ul li span {font-size: 14px;}
+	.post blockquote {font-size: 13px; padding: 20px 17px}
+	.partner-logos {padding-top: 30px}
+	.error-text h2 {line-height: 1.3}
+	.ready-to-work h3 {line-height: 1.4; font-size: 17px}
+	.owl-thumb-item {height: auto;}
+	.comment {padding: 25px 25px}
+	.info {min-width: 200px;}
+	.service-details {padding-left: 25px;}
+	.our-services ul span {font-size: 12px;}
+	.work-flow .heading p {font-size: 13px;}
+	.copyright p {line-height: 1.5}
+	.ft-social-links li {margin-right: 10px; margin-bottom: 10px}
+	.con-links li {margin-bottom: 5px;}
+	.blog-section h2 {width: 100%; text-align: center;}
+	.blog-section ul {float: left;width: 100%;text-align: center;}
+	.scnd {width: 100%; text-align: left;}
+	.post ul.fst {width: 100%; text-align: left; margin-bottom: 20px}
+	.post p {font-size: 13px; padding-bottom: 25px}
+	.scnd > li:first-child {padding-left: 0}
+	.tags-links > h5 {width: 100%;float: left;margin-bottom: 10px}
+	.blog-hd {font-size: 26px}
+	.cs-counter {margin-left: 10px}
+	.owl-thumbs {padding:0; margin:0; margin-top: 7px}
+	.owl-thumb-item {width: 31%; margin-bottom: 7px}
+	.expert-list .col-md-2 {width: 27%; float: none; margin-bottom: 10px}
+	.service_content p {font-size: 12px}
+	.service-details .heading p {padding-right: 0}
+	.service_content {height: auto;}
+	.nav-tabs li a span {width: 50px; height: 50px; line-height: 50px; font-size: 22px}
+	#filter a {font-size: 14px}
+	.option-set.filters-nav {margin-bottom: 20px}
+	.price h2 {font-size: 24px}
+	.ready-to-work a {font-size: 13px; margin-top: 15px}
+	.price span strong {font-size: 36px}
+	.price span b {font-size: 13px}
+	.price span small {font-size: 20px}
+	.pt-logo {width: 49%;}
+	.heading h2 {font-size: 24px}
+	.user-infoo {width: 100%; margin-top: 40px;}
+	.progress-section .heading p {font-size: 13px}
+	.user-details .scnd {margin-top: -100px; text-align: right;}
+	.post .icon-quote {left: 0;}
+	.infooo {padding-left: 10px}
+	.blog-section h2 {margin-bottom: 10px}
+	.blog-section {padding: 50px 0}
+	.user-comm h3 span {margin-left: 20px}
+	.expert-details {padding-left: 20px !important; padding-right: 40px !important}
+	.bottom-header.one.stick .logo {margin-top: 0}
+	.bottom-header.one.stick .menu-icon img {margin-top: 0}
+	.bottom-header.one.stick {padding: 15px 0}
+	.service-details {padding-left: 20px; padding-right: 20px}
+	.our-services ul span {font-size: 11px}
+	.service-details ul img {margin-top: 7px;}
+	#filter a {font-size: 12px;}
+	#filter > li {padding: 0 5px;}
+	.expert-details p {font-size: 13px}
+	.user-info {width: 70%}
+	.top-footer .pd-left {padding-left: 30px}
+	.our-capabilities figure img {padding: 0 10px}
+	.our-capabilities figure::before {height: 100%; top: 0; -webkit-transform: scale(0.9); -moz-transform: scale(0.9); -ms-transform: scale(0.9); -o-transform: scale(0.9); transform: scale(0.9);}
+	.our-capabilities figure img:hover {-moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+	.our-services h3 {padding-bottom: 15px}
+	.work-flow .heading h2 {font-size: 22px}
+	.work-flow .heading p {font-size: 12px}
+	.work-flow .heading {padding: 25px 20px}
+	.option-set.filters-nav {margin-bottom: 10px}
+	.heading {margin-bottom: 40px}
+	.expert-list .heading {margin-bottom: 25px}
+	.tabs2 {float: left; width: 100%; text-align: center;}
+	.expert-list {padding: 25px 0}
+	.partner-logos {padding-top: 25px}
+	.thumb-carousel .owl-nav {top: 25%}
+	.progress-section .heading {margin-bottom: 10px}
+	.top-footer .heading.ta-left {margin-bottom: 30px}
+	.contact-info li {margin-bottom: 30px}
+	.our-capabilities figure {padding: 0 25px}
+	.heading h2.pd-btm {padding-bottom: 10px}
+	.heading {margin-bottom: 25px}
+	.search-bar {margin-top: 0}
+	.con-links li span {font-size: 13px}
+	.services-tab {padding-bottom: 70px}
+	.gallery .heading {margin-bottom: 40px}
+	.thumb-gallery .heading {padding-bottom: 20px}
+	.info h3 {font-size: 18px}
+	.nav-tabs li a span {width: 35px; height: 35px; line-height: 35px; font-size: 16px}
+	.nav-tabs li {margin-right: 0}
+	.pd {padding: 30px 0}
+	#filter > li {margin-bottom: 20px}
+	.remove-btm-pd {padding-bottom: 0}
+	.blog-section {padding: 25px 0}
+	.post > img {margin-bottom: 20px}
+	.post p {padding-bottom: 20px}
+	#componentWrapper .controls_toggle {width: 50px}
+	.blog-user {padding: 20px 0}
+	.error-text {padding-top: 20px}
+	.error-text h2 {padding-bottom: 10px}
+	.error-data {padding-top: 25px}
+	.error-text > a {font-size: 14px; padding: 10px 20px}
+	.error-sec {padding-bottom: 50px}
+	.error-text h2 {font-size: 24px}
+	.expert-list .heading p {padding: 0 15px}
+	.thumb-carousel figcaption p {padding-left: 0; padding-right: 0}
+	.sidepanel {width: 225px; padding: 20px 10px;}
+	.bottom-header.one.stick .menu-icon img {margin-top: -3px}
+
+}
