@@ -1,74 +1,10 @@
-	<div class="wrapper">
-		<header id="homee">
-			<div class="container">
-				<div class="top-bar">
-					<ul class="con-links">
-						<li><span>+91 8015106497</span></li>
-						<li><span>hello@shopknekt.com</span></li>
-					</ul>
-					<!-- <div class="search-bar">
-						<form>
-							<input type="text" name="search" placeholder="Search">
-							<button type="submit"><img src="http://creativethemes.us/helix/images/search.png" alt=""></button>
-						</form>
-					</div> -->
-				</div>
-				<div class="bt-header"></div>
-				<div class="bottom-header one hmee">
-					<div class="container">
-						<div class="logo">
-							<a href="index.html" title="">
-							<img src="<%= asset_url('Logo.png') %>" alt="" class= "z-img img-responsive" />	
-							</a>
-						</div><!--logo end-->
-						<nav>
-							<ul>
-								<li><a href="#homee" title="">Home</a>
-								</li>
-								<li><a href="#servicess" title="">Services</a></li>
-								<li><a href="#aboutt" title="">About us</a></li>
-								<!-- <li><a href="#workk" title="">Work</a></li> -->
-								<!-- <li><a href="#teamm" title="">Team</a></li> -->
-								<li><a href="#contactt" title="">Contact</a></li>
-							</ul>
-						</nav><!--nav end-->
-						<div class="menu-icon">
-							<img class="op" src="http://creativethemes.us/helix/images/menu-bar.png" alt="">
-							<img class="crs" src="http://creativethemes.us/helix/images/cross.png" alt="">
-						</div><!--menu-icon end-->
-					</div>
-				</div>
-			</div>
-		</header><!-- Header end-->	
-
-		<div class="responsive-mobile-menu">
-			<div class="reponsive-menu">
-				<ul>
-					<li><a href="#homee" title="">Home <span class="caret"></span></a>
-					</li>
-					<li><a href="#servicess" title="">Features</a></li>
-					<li><a href="#aboutt" title="">About Us</a></li>
-					<!-- <li><a href="#workk" title="">Work</a></li> -->
-					<!-- <li><a href="#teamm" title="">Team</a></li> -->
-					<li><a href="#" title="">Pages <span class="caret"></span></a>
-						<ul>
-							<li><a class="external" href="blogs.html" title="">Blog</a></li>
-							<li><a class="external" href="blog-details.html" title="">Blog Details</a></li>
-							<li><a class="external" href="comingsoon2.html" title="">Coming Soon</a></li>
-							<li><a class="external" href="error.html" title="">Error 404</a></li>
-						</ul>
-					</li>
-					<li><a href="#contactt" title="">Contact</a></li>
-				</ul>
-			</div>
-		</div><!--responsive-mobile-menu End-->
 
 		<section class="main-slider" id="homee">
 			<div class="container">
 				<div id="rev_slider_476_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="christmas-snow-scene" data-source="gallery" style="background-color:transparent;padding:0px;">
 				<!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
 					<div id="rev_slider_476_1" class="rev_slider fullscreenbanner .parallax-overlay .parallax-overlay-1" style="display:none;" data-version="5.3.0.2">
-						<ul>	
+						<ul >	
 							<!-- SLIDE  -->
 							<li data-index="rs-1648" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider_banner.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 								<!-- MAIN IMAGE -->
@@ -212,7 +148,8 @@
 						<!-- Nav tabs -->
 						<ul class="nav nav-tabs" role="tablist">
 						    <li class="active"><a href="#mobile" role="tab" data-toggle="tab"><span class="icon-mobile">
-                 		 <i class="fa fa-snowflake-o icon-mobile" aria-hidden="true"></i>
+                 		 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+
 						    </span></a></li>
 						    <li><a href="#presentation" role="tab" data-toggle="tab"><span class="icon-presentation">
 						    	<i class="fa fa-cogs" aria-hidden="true"></i>
@@ -692,34 +629,34 @@
 							<div class="col-md-8">
 								<div class="heading ta-left">
 									<h2>Contact Us</h2>
-								</div><!--heading end-->
+								</div>
 								<div class="contact-form">
-<!-- 									<form>
-										<input type="text" name="name" placeholder="Name" required>
-										<input type="text" name="email" placeholder="Email" required>
-										<textarea placeholder="Message"></textarea>
-										<button class="submit-btn">Submit</button>
-									</form> -->
 									<%= form_for(@contact) do |f| %>
-									<div class="col-md-11">
-									  <%= f.text_field :name , placeholder: "Name" %>
-
-										
+									<div class="col-md-12">
+										<div class="form-group">
+									  		<%= f.text_field :name , placeholder: "Name" %>	
+									  	</div>
 									</div>
-									<div class="col-md-11">
-									  <%= f.text_field :email, placeholder: "Email" %>
-										
+									<div class="col-md-6">
+										<div class="form-group">
+									  		<%= f.text_field :email, placeholder: "Email" %>
+									  	</div>
 									</div>
-									<div class="col-md-11">
-
-									  <%= f.text_field :phone, placeholder: "Phone " %>
+									<div class="col-md-6">
+										<div class="form-group">
+									  		<%= f.text_field :phone, placeholder: "Phone " %>
+									  	</div>
 									</div>
 
-  									  <%= f.text_area :message,placeholder: "Message" %>
+									<div class="col-md-12">
+										<div class="form-group">
+	  									  <%= f.text_area :message,placeholder: "Message" %>
+	  									</div>
+  									</div>
 
-									  <div class="actions">
+									<div class="actions">
 									    <%= f.submit %>
-									  </div>
+									</div>
 									<% end %>
 								</div><!--contact form end-->
 							</div>
@@ -784,7 +721,7 @@ India</h5>
 				</section>
 			</footer>
 
-	</div>
+
 
 	<script>
 	$('.testimonial-carousel').owlCarousel({

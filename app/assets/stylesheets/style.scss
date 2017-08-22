@@ -81,6 +81,7 @@ body h2, h1 {
 .pd {
 	padding: 120px 0;
 }
+
 .remove-btm-pd {
 	padding-bottom: 0;
 }
@@ -2080,17 +2081,18 @@ footer {
 .contact-form form {
 }
 .contact-form form input {
-	width: 48%;
+	width: 100%;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	-ms-border-radius: 25px;
 	-o-border-radius: 25px;
 	border-radius: 25px;
-	border: 2px solid #c6c6c6;
+	border: 2px solid #e6827e;
+	background-color: #e6827e;
 	padding: 0px 30px;
 	height: 50px;
 	font-size: 14px;
-	color: #333333;
+	color: #fff;
 	margin-bottom: 7px;
 }
 .contact-form form input:first-of-type {
@@ -2954,4 +2956,11 @@ blockquote::before {
 }
 .tp-splitted.tp-linesplit {
 	font-weight: 700;
+}
+div#rev_slider_476_1 {
+    height: 633px!important;
+}
+
+.tp-fullwidth-forcer {
+    height: 633px!important;
 }
